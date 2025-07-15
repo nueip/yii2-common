@@ -1,6 +1,6 @@
 <?php
 
-namespace gunter1020\yii2\common\db;
+namespace nueip\yii2\common\db;
 
 use Ramsey\Uuid\Uuid;
 use Yii;
@@ -15,7 +15,7 @@ use yii2tech\ar\softdelete\SoftDeleteBehavior;
 /**
  * Extends Yii db ActiveRecord class.
  *
- * @author Gunter Chou <abcd2221925@gmail.com>
+ * @author Gunter Chou <gunter.chou@staff.nueip.com>
  */
 abstract class GuActiveRecord extends ActiveRecord
 {
@@ -112,7 +112,7 @@ abstract class GuActiveRecord extends ActiveRecord
             $behaviors['timestampCols'] = [
                 'class' => TimestampBehavior::class,
                 'attributes' => $timestampAttributes,
-                'value' => static fn () => Yii::$app->get('formatter')->asDatetime(time()),
+                'value' => static fn() => Yii::$app->get('formatter')->asDatetime(time()),
             ];
         }
 
@@ -150,12 +150,12 @@ abstract class GuActiveRecord extends ActiveRecord
 
             // deleted at
             if ($this->deletedAtAttribute) {
-                $behaviors['softDeleteAndRestore']['softDeleteAttributeValues'][$this->deletedAtAttribute] = static fn () => Yii::$app->get('formatter')->asDatetime(time());
+                $behaviors['softDeleteAndRestore']['softDeleteAttributeValues'][$this->deletedAtAttribute] = static fn() => Yii::$app->get('formatter')->asDatetime(time());
             }
 
             // deleted by
             if ($this->deletedByAttribute) {
-                $behaviors['softDeleteAndRestore']['softDeleteAttributeValues'][$this->deletedByAttribute] = static fn () => Yii::$app->has('user') ? Yii::$app->get('user')->getId() : null;
+                $behaviors['softDeleteAndRestore']['softDeleteAttributeValues'][$this->deletedByAttribute] = static fn() => Yii::$app->has('user') ? Yii::$app->get('user')->getId() : null;
             }
         }
 

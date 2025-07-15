@@ -1,6 +1,6 @@
 <?php
 
-namespace gunter1020\yii2\common\base;
+namespace nueip\yii2\common\base;
 
 use yii\base\Security;
 
@@ -14,14 +14,14 @@ use yii\base\Security;
  *  $config = [
  *      'components' => [
  *          'security' => [
- *              'class' => \gunter1020\yii2\common\base\GuSecurity::class,
+ *              'class' => \nueip\yii2\common\base\GuSecurity::class,
  *              'encryptKey' => 'YOUR_ENCRYPT_KEY',
  *          ]
  *      ]
  *  ]
  * ```
  *
- * @author Gunter Chou <abcd2221925@gmail.com>
+ * @author Gunter Chou <gunter.chou@staff.nueip.com>
  */
 class GuSecurity extends Security
 {

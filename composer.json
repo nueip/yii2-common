@@ -1,5 +1,5 @@
 {
-    "name": "gunter1020/yii2-common",
+    "name": "nueip/yii2-common",
     "description": "Yii 2 Common Lib",
     "keywords": [
         "yii",
@@ -11,7 +11,7 @@
     "authors": [
         {
             "name": "Gunter Chou",
-            "email": "abcd2221925@gmail.com"
+            "email": "gunter.chou@staff.nueip.com"
         }
     ],
     "require": {
@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "gunter1020\\yii2\\common\\": "src"
+            "nueip\\yii2\\common\\": "src"
         }
     },
     "repositories": [

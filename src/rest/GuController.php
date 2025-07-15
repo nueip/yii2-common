@@ -1,6 +1,6 @@
 <?php
 
-namespace gunter1020\yii2\common\rest;
+namespace nueip\yii2\common\rest;
 
 use yii\rest\Controller;
 use yii\rest\OptionsAction;
@@ -8,7 +8,7 @@ use yii\rest\OptionsAction;
 /**
  * Extends Yii rest Controller class.
  *
- * @author Gunter Chou <abcd2221925@gmail.com>
+ * @author Gunter Chou <gunter.chou@staff.nueip.com>
  */
 abstract class GuController extends Controller
 {

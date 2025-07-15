@@ -1,8 +1,8 @@
 <?php
 
-namespace gunter1020\yii2\common\behaviors;
+namespace nueip\yii2\common\behaviors;
 
-use gunter1020\yii2\common\base\GuSecurity;
+use nueip\yii2\common\base\GuSecurity;
 use Yii;
 use yii\base\Behavior;
 use yii\base\InvalidConfigException;
@@ -16,14 +16,14 @@ use yii\db\ActiveRecord;
  *  {
  *      return [
  *          'encryptAttrs' => [
- *              'class' => \gunter1020\yii2\common\behaviors\GuEncryptBehavior::class,
+ *              'class' => \nueip\yii2\common\behaviors\GuEncryptBehavior::class,
  *              'attributes' => ['attribute_a', 'attribute_b'],
  *          ],
  *      ];
  *  }
  * ```
  *
- * @author Gunter Chou <abcd2221925@gmail.com>
+ * @author Gunter Chou <gunter.chou@staff.nueip.com>
  */
 class GuEncryptBehavior extends Behavior
 {
