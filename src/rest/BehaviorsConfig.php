@@ -1,6 +1,6 @@
 <?php
 
-namespace gunter1020\yii2\common\rest;
+namespace nueip\yii2\common\rest;
 
 use yii\filters\auth\HttpBearerAuth;
 use yii\filters\Cors;
@@ -9,7 +9,7 @@ use yii\web\Response;
 /**
  * Behaviors config library
  *
- * @author Gunter Chou <abcd2221925@gmail.com>
+ * @author Gunter Chou <gunter.chou@staff.nueip.com>
  */
 final class BehaviorsConfig
 {

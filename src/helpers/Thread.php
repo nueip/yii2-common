@@ -1,6 +1,6 @@
 <?php
 
-namespace gunter1020\yii2\common\helpers;
+namespace nueip\yii2\common\helpers;
 
 use Exception;
 

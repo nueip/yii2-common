@@ -1,6 +1,6 @@
 <?php
 
-namespace gunter1020\yii2\common\db;
+namespace nueip\yii2\common\db;
 
 use yii\db\ActiveQuery;
 use yii\db\Connection;
@@ -10,7 +10,7 @@ use yii\db\Connection;
  *
  * @property GuActiveRecord $modelClass
  *
- * @author Gunter Chou <abcd2221925@gmail.com>
+ * @author Gunter Chou <gunter.chou@staff.nueip.com>
  */
 abstract class GuActiveQuery extends ActiveQuery
 {

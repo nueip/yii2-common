@@ -1,6 +1,6 @@
 <?php
 
-namespace gunter1020\yii2\common\log;
+namespace nueip\yii2\common\log;
 
 use Exception;
 use Ramsey\Uuid\Uuid;
@@ -15,7 +15,7 @@ use yii\log\Target;
 /**
  * GoogleTarget records log messages to Google Cloud Logging with GKE.
  *
- * @author Gunter Chou <abcd2221925@gmail.com>
+ * @author Gunter Chou <gunter.chou@staff.nueip.com>
  */
 class GuGoogleTarget extends Target
 {
