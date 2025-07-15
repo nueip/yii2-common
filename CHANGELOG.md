@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/nueip/yii2-common/compare/1.1.1...v1.2.0) (2025-07-15)
+
+
+### Features
+
+* 更新版權信息及命名空間 ([a012f30](https://github.com/nueip/yii2-common/commit/a012f307c967921f2888e3d014de7fc71aa3d51b))
+
 ## [1.1.1](https://github.com/nueip/yii2-common/compare/1.1.0...1.1.1) (2023-06-02)
 
 ### Bug Fixes
